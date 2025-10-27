@@ -1,0 +1,4 @@
+C:/cs2300/open ended projects/module 3/M3OEP-mneves-jpancoas/cmake-build-debug/CMakeFiles/main.dir
+C:/cs2300/open ended projects/module 3/M3OEP-mneves-jpancoas/cmake-build-debug/CMakeFiles/test.dir
+C:/cs2300/open ended projects/module 3/M3OEP-mneves-jpancoas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/cs2300/open ended projects/module 3/M3OEP-mneves-jpancoas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

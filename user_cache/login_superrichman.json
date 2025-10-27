@@ -1,0 +1,14 @@
+{
+    "balance": 99999999,
+    "losses": {
+        "blackjack": 0,
+        "roulette": 0,
+        "slots": 0
+    },
+    "username": "superrichman",
+    "wins": {
+        "blackjack": 0,
+        "roulette": 0,
+        "slots": 0
+    }
+}
