@@ -1,12 +1,11 @@
-
 # Lucky Cat Casino, by Mathew Neves & Jacob Pancoast
 
 This program is a simple simulation of a few popular casino games, European roulette, slots and blackjack, and also includes war as a time waster. It uses a dedicated Roulette.h and class, a
 dedicated Slots.h and class, a Casino.h and class, a Blackjack.h and class, and an abstract Game.h, and attempts to build a robust program that is difficult 
-to break and will run without issue. We have implemented some larger methods, mostly because I want the program to run WITHOUT needing more than one line of code 
+to break and will run without issue. We have implemented some larger methods, mostly because we want the program to run WITHOUT needing more than a few lines of code 
 in the main.cpp file. This is so that this code can be implemented more easily along with other classes. 
 
-For Module 3, we revamped our multiple instances of file IO being used to track a player's chip balance. The login uses files named after a user's chosen username, and 
+For this first release version, we revamped our multiple instances of file IO being used to track a player's chip balance. The login uses files named after a user's chosen username, and 
 reads/writes a line for that player's balance using methods in the Casino class. There is now also true statistics tracking for each user, beyond just tracking the amount of chips they have. 
 It includes their games played for each one of our games, as well as their wins and losses. This stat tracking has live updates and also uses matplotlib in Python so users 
 can see graphs of their income over time. The program still starts in C++, but uses the other inclusions for the graphing and stats portion of the project. Python was the 
@@ -21,8 +20,7 @@ to improve the overall user experience.
 
 You should be able to run just by cloning the repository and using the included LuckyCatCasino.exe, but if that does not work, follow the steps below:
 
-We have only compiled in Windows, and have done it with the steps below.
-
+We have only compiled in Windows, and have done it with the steps below. If you must compile elsewhere, ignore the test.cpp file and any other compilers (in this case CMake)
 You should use G++ to compile this program. In Windows Powershell, compile with the following:
 
 ```
@@ -40,6 +38,8 @@ And run the LuckyCatCasino.exe with:
 In some VERY rare cases, you can overwhelm the program with your inputs. This only happens if a user is spamming inputs when not prompted. 
 There is not really much of an easy fix for this, since it is an extreme case, and it will cause some funky backlogging stuff to happen. I do, 
 however, think that the program eventually fixes itself once valid inputs are given.
+
+War is still very early into debugging and may still contain some unfound bugs. 
 
 # Future Plans
 
@@ -59,17 +59,6 @@ The timer concept used was modified from: https://www.geeksforgeeks.org/cpp/how-
 Information on roulette was found on: https://www.partycasino.com/en/blog/how-to-play-roulette/  
 ASCII art font: https://patorjk.com/software/taag/#p=display&f=Big&t=Lucky+Cat+Casino&x=none&v=4&h=4&w=80&we=false  
 ASCII art cat: https://www.asciiart.eu/animals/cats  
-
-# Grade
-
-The project has been created extensively at this point, and during each module a large amount of time and effort has been dedicated to it. 
-We included Python for this module, and made changes to how file IO works in a way that is well-integrated and advanced, and communicates between 
-command line to open necesary components for the program to run. We could have chosen to do more languages, and in fact greatly considered it. 
-It did not make sense, however, to abandoned C++ for the newly created "War" game which instead expands on our existing class relationships and 
-is a much smoother integration. 
-
-We also believe we have nothing to cause a point deduction, and overall feel our project is worth 100-120 points based on the rubric and the effort 
-we have put into it to make the user end experience smooth and fun, instead of just making a simple program for us to run.
 
 # Other Notes
 
