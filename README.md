@@ -16,6 +16,11 @@ file through CLI.
 There is also a new game, war, which is made to be a fun time waster and to test new concepts and skills. It is made to be implemented efficiently yet competently and was included 
 to improve the overall user experience.
 
+# Update Log
+* Pre-release 0.0.1: Added Roulette and Slots, created Casino class
+* Pre-release 0.0.2: Added Blackjack and User Profile saving, modified class relationships
+* Early Access 0.1.0: Added War, revamped User Profile system, added statistics tracking
+
 # How To Run
 
 You should be able to run just by cloning the repository and using the included LuckyCatCasino.exe, but if that does not work, follow the steps below:
@@ -39,7 +44,10 @@ In some VERY rare cases, you can overwhelm the program with your inputs. This on
 There is not really much of an easy fix for this, since it is an extreme case, and it will cause some funky backlogging stuff to happen. I do, 
 however, think that the program eventually fixes itself once valid inputs are given.
 
-War is still very early into debugging and may still contain some unfound bugs. 
+IF ANY BUGS ARE FOUND, PLEASE EMAIL ONE OF THE CREATORS:  
+https://github.com/matcat7  
+https://github.com/jacob-pancoast17  
+
 
 # Future Plans
 
